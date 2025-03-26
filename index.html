@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Tooplate">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="assets/images/love.png"> 
+
+    <title>Dini Carollina</title>
+
+    <style>
+      #audio-button {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background: #f96d38;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          z-index: 1000;
+      }
+      
+  </style>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+<!--
+Tooplate 2113 Earth
+https://www.tooplate.com/view/2113-earth
+-->
+  <body>
+
+    <div class="sequence">
+  
+      <div class="seq-preloader">
+        <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
+      </div>
+      
+    </div>
+    
+        <div class="logo">
+            <h1>Dini Carollina</h1>
+            <h2>DC</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#1"><img src="assets/images/icon-1.png" alt=""> <em>Your Home</em></a></li>
+            <li><a href="#2"><img src="assets/images/icon-2.png" alt=""> <em>About You</em></a></li>
+            <li><a href="#3"><img src="assets/images/icon-3.png" alt=""> <em>Your Gallery</em></a></li>
+            <li><a href="#4"><img src="assets/images/icon-4.png" alt=""> <em>Call Me</em></a></li>
+          </ul>
+        </nav>
+        
+        <div class="slides">
+          <div class="slide" id="1">
+            <div id="slider-wrapper">
+                <div id="image-slider">
+                  <ul>
+                    <li class="active-img">
+                      <div class="slide-caption">
+                      </h6><br><br><br><br></h6><br><br><br><br></h6><br><br><br><br>
+                        <h6>A new muse
+
+                          <audio id="audio" autoplay loop muted>
+                            <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+                            Browser Anda tidak mendukung tag audio.
+                        </audio>
+                        
+                        <!-- <button id="audio-button">Pause</button> -->
+                        
+                        <script>
+                          document.addEventListener('DOMContentLoaded', function() {
+                              var audio = document.getElementById("audio");
+                              var button = document.getElementById("audio-button");
+                  
+                              function playAudio() {
+                                  audio.muted = false;
+                                  audio.play().catch(function(error) {
+                                      console.log("Autoplay diblokir: ", error);
+                                  });
+                              }
+                  
+                              playAudio();
+                  
+                              document.addEventListener("click", playAudio);
+                              document.addEventListener("scroll", playAudio);
+                              document.addEventListener("keydown", playAudio);
+                              
+                              button.addEventListener("click", function() {
+                                  if (audio.paused) {
+                                      audio.play();
+                                      button.textContent = "Pause";
+                                  } else {
+                                      audio.pause();
+                                      button.textContent = "Play";
+                                  }
+                              });
+                          });
+                      </script>
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        <h2>A timeless <br> beauty</h2>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="slide-caption">
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <h2 style="color:black;">You outshine </h2>
+                        <h2>everyone <br>around you</h2>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="slide-caption">
+                        <h6>Your smile </h6>
+                        <h2>lights up <br>everything</h2>
+                      </div>
+                    </li>                      
+                  </ul>
+                </div>
+                <div id="thumbnail">
+                  <ul>
+                    <li class="active"><img src="assets/images/9.png" alt="Earth" /></li>
+                    <li><img src="assets/images/4.jpeg" alt="Meeting" /></li>
+                    <li><img src="assets/images/9.jpeg" alt="Smart" /></li>         
+                  </ul>
+                </div>
+              </div>
+        </div>
+        <div class="slide" id="2">
+            <div class="content second-content">
+                <div id='tabs'>
+                  <ul>
+                    <li><a href='#tabs-1'><span class='fa fa-heart'></span></a></li>
+                    <li><a href='#tabs-2'><span class='fa fa-heart'></span></a></li>
+                    <li><a href='#tabs-3'><span class='fa fa-heart'></span></a></li>
+                    <li><a href='#tabs-4'><span class='fa fa-heart'></span></a></li>
+                  </ul>
+                  <section class='tabs-content'>
+                    <article id='tabs-1'>
+                      <h2>Wanita Ceria 😊</h2>
+                      <!-- <span>Menurutku</span> -->
+                      <p>Senyumnya  yang hangat 😊 mampu mencairkan suasana, dan tawanya yg khas 😂 seperti melodi 🎶 yang membawa kebahagiaan 💖. Ia selalu melihat sisi positif dalam setiap keadaan, menularkan energi baik kepada orang-orang di sekitarnya 😊🌸.</p>
+                      <p>Meski terkadang suka diam seribu bahasa 🤐 atau mendadak ngambek 😤 tanpa alasan yang jelas, justru itulah yang membuatnya semakin menggemaskan 💖. Dengan semangat yang tak pernah padam 🔥, ia menghadapi hari-hari dengan optimisme 🌞 dan keceriaan 😄 mengingatkan bahwa hidup selalu memiliki alasan untuk tersenyum 😊✨.</p>
+                    </article>
+                    <article id='tabs-2'>
+                      <h2>Wanita Tangguh 💪✨</h2>
+                      <!-- <span>Ut nec metus eros</span> -->
+                      <p>Di balik ketegarannya 💪, ada saat-saat di mana hatinya terasa lelah 😔, dan air mata 😢 menjadi pelariannya dalam diam 🤫. Ia mungkin terlihat kuat di hadapan dunia 🌍, tetapi dalam kesendiriannya 🌙, ia merasakan luka 💔 yang jarang ia ceritakan, Meski begitu, ia selalu menemukan cara untuk bangkit—bukan karena ia tak rapuh, tetapi karena ia tahu bahwa kekuatan sejati adalah tentang terus melangkah meski hati terasa berat.</p>
+                      <p>Ia menangis 😢, lalu tersenyum 😊 lagi. Terjatuh 💔, lalu bangkit 💪 lagi. Sebab itulah, ketangguhannya bukan sekadar tentang bertahan, tapi juga tentang keberanian untuk merasakan, menerima, dan tetap melanjutkan perjalanan 🚶‍♀️✨.</p>
+                    </article>
+                    <article id='tabs-3'>
+                      <h2>Wanita Mandiri</h2>
+                      <!-- <span>Etiam tempus ex ut mi</span> -->
+                      <p>sosok yang tidak bergantung pada orang lain untuk menentukan arah hidupnya. Ia tahu apa yang ia inginkan dan berani berjuang untuk meraihnya. Dengan kepercayaan diri dan tekad yang kuat, ia melangkah 👣 tanpa ragu, menghadapi setiap rintangan dengan kepala tegak. Ia tidak takut sendirian, karena ia tahu bahwa dirinya cukup.</p> 
+                      <p>Namun, di balik kemandiriannya 💪, ada sisi lembut 💖 yang jarang ia tunjukkan—kadang ia lelah 😔, kadang ia ingin dimengerti 🤗, tetapi ia terlalu terbiasa menyelesaikan segalanya sendiri. Bukan karena ia tidak butuh orang lain, hanya saja ia tahu bahwa kekuatannya adalah sesuatu yang selalu bisa ia andalkan.</p>
+                    </article>
+                    <article id='tabs-4'>
+                      <h2>Wanita BAWEL 😆🎙️✨</h2>
+                      <!-- <span>Etiam tempus ex ut mi</span> -->
+                      <p>sosok yang penuh energi ⚡ dan selalu punya sesuatu untuk dikatakan 🗣️. Mulutnya tak pernah kehabisan kata, entah itu tentang hal kecil yang menurutnya penting 🤔 atau sekadar celotehan iseng yang membuat suasana hidup. Ia bisa mengomel 😤, bisa bercerita panjang lebar 📖, dan terkadang sulit berhenti ketika sedang bersemangat 🔥.</p> 
+                      <p>Namun, di balik ocehannya yang tiada henti 🎶, ada kepedulian yang tulus ❤️ —ia cerewet karena peduli 🤗, karena ingin didengar 👂, dan karena dunianya terasa lebih berwarna dengan kata-kata. Meski kadang bikin pusing 🤯, kehadirannya justru dirindukan ketika tiba-tiba ia diam 🤫. Karena tanpa suaranya, segalanya terasa sepi dan kurang berarti 💖. </p>
+                    </article>
+                  </section>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="3">
+            <div class="content third-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="col-md-12">
+                                <div class="featured-item"> 
+                                	<a href=""><img src="assets/images/6.jpeg" alt=""></a>
+                                    <div class="down-content">
+                                    <h4>your birthday</h4>
+                                        <h6>di ulang tahun mu ini Aku tidak ngasih apa - apa, Swipe for more</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <a href=""><img src="assets/images/10.jpeg" alt=""></a>
+                                    <div class="down-content">
+                                        <h4>your birthday</h4>
+                                        <h6>dimana ada kesempatan harus foto - foto </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/1.jpeg" alt="">
+                                    <div class="down-content">
+                                        <h4>Perpustakaan</h4>
+                                        <h6>Ceritanya sih ke perpus padahal mah...</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/3.jpeg" alt="">
+                                    <div class="down-content">
+                                        <h4>CINCIN</h4>
+                                        <h6>1 foto kamu saja sudah membuat ku melayang, apalagi 4...</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/5.jpeg" alt="">
+                                    <div class="down-content">
+                                        <h4>Ibu Ibu Pengajian</h4>
+                                        <h6>kayak yang bener saja....</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/4.jpeg" alt="">
+                                    <div class="down-content">
+                                        <h4>Bukber</h4>
+                                        <h6>diantara teman - teman mu kamulah yang paling bersinar...</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-07.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Donec non sagittis</h4>
+                                        <h6>$85.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-08.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Curabitur sed 8</h4>
+                                        <h6>$95.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-09.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Curabitur sed 10</h4>
+                                        <h6>$105.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-10.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Curabitur sed 12</h4>
+                                        <h6>$115.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-11.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Curabitur sed 14</h4>
+                                        <h6>$125.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="featured-item">
+                                    <img src="assets/images/item-12.jpg" alt="">
+                                    <div class="down-content">
+                                        <h4>Curabitur sed 16</h4>
+                                        <h6>$135.00</h6>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="4">
+            <div class="content fourth-content">
+                <div class="container-fluid">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h2>Hay Carol!</h2>
+                            <h4 style="color: aliceblue;">Selamat atas awal yang baru! Semoga sukses di tempat yang baru dan semua impian serta cita-cita yang telah diperjuangkan bisa tercapai. Perjalanan ini mungkin penuh tantangan, tetapi dengan semangat dan tekad yang kuat, kamu akan meraih hal-hal luar biasa. Jangan pernah ragu untuk terus melangkah, karena setiap langkahmu membawa kamu lebih dekat ke impianmu. Semoga kebahagiaan, keberuntungan, dan kesuksesan selalu menyertai di setiap langkah perjalanan barumu. Tetap semangat dan terus bersinar!
+                              <br><br> "Whenever you're feeling down, reach out to me." 🤗✨
+                            </h4>
+                          </div>
+                          <!-- <div class="col-md-6">
+                            <fieldset>
+                              <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-md-6">
+                            <fieldset>
+                              <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12">
+                            <fieldset>
+                              <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                            </fieldset>
+                          </div>
+                          <div class="col-md-12">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="button">Send Now</button>
+                            </fieldset>
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/accordations.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            // navigation click actions 
+            $('.scroll-link').on('click', function(event){
+                event.preventDefault();
+                var sectionID = $(this).attr("data-id");
+                scrollToID('#' + sectionID, 750);
+            });
+            // scroll to top action
+            $('.scroll-top').on('click', function(event) {
+                event.preventDefault();
+                $('html, body').animate({scrollTop:0}, 'slow');         
+            });
+            // mobile nav toggle
+            $('#nav-toggle').on('click', function (event) {
+                event.preventDefault();
+                $('#main-nav').toggleClass("open");
+            });
+        });
+        // scroll function
+        function scrollToID(id, speed){
+            var offSet = 0;
+            var targetOffset = $(id).offset().top - offSet;
+            var mainNav = $('#main-nav');
+            $('html,body').animate({scrollTop:targetOffset}, speed);
+            if (mainNav.hasClass("open")) {
+                mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+                mainNav.removeClass("open");
+            }
+        }
+        if (typeof console === "undefined") {
+            console = {
+                log: function() { }
+            };
+        }
+    </script>
+
+  </body>
+</html>

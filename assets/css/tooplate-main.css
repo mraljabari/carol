@@ -361,8 +361,8 @@ nav a::before {
 }
 #thumbnail {
   position: absolute;
-  z-index: 99999;
-  bottom: 30px;
+  z-index: 1111;
+  bottom: 90px;
   right: 30px;
 }
 #thumbnail ul {

@@ -362,7 +362,7 @@ nav a::before {
 #thumbnail {
   position: absolute;
   z-index: 1111;
-  bottom: 130px;
+  bottom: 120px;
   right: 30px;
 }
 #thumbnail ul {
